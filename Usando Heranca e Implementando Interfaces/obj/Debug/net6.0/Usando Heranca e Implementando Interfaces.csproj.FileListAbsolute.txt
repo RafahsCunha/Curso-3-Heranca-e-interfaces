@@ -1,0 +1,15 @@
+C:\Users\Rafa\Desktop\FACULDADE\Onboarding Totvs\Alura\Alura - Curso 3\Heranca e  Interfaces\Usando Heranca e Implementando Interfaces\bin\Debug\net6.0\Usando Heranca e Implementando Interfaces.exe
+C:\Users\Rafa\Desktop\FACULDADE\Onboarding Totvs\Alura\Alura - Curso 3\Heranca e  Interfaces\Usando Heranca e Implementando Interfaces\bin\Debug\net6.0\Usando Heranca e Implementando Interfaces.deps.json
+C:\Users\Rafa\Desktop\FACULDADE\Onboarding Totvs\Alura\Alura - Curso 3\Heranca e  Interfaces\Usando Heranca e Implementando Interfaces\bin\Debug\net6.0\Usando Heranca e Implementando Interfaces.runtimeconfig.json
+C:\Users\Rafa\Desktop\FACULDADE\Onboarding Totvs\Alura\Alura - Curso 3\Heranca e  Interfaces\Usando Heranca e Implementando Interfaces\bin\Debug\net6.0\Usando Heranca e Implementando Interfaces.dll
+C:\Users\Rafa\Desktop\FACULDADE\Onboarding Totvs\Alura\Alura - Curso 3\Heranca e  Interfaces\Usando Heranca e Implementando Interfaces\bin\Debug\net6.0\Usando Heranca e Implementando Interfaces.pdb
+C:\Users\Rafa\Desktop\FACULDADE\Onboarding Totvs\Alura\Alura - Curso 3\Heranca e  Interfaces\Usando Heranca e Implementando Interfaces\obj\Debug\net6.0\Usando Heranca e Implementando Interfaces.csproj.AssemblyReference.cache
+C:\Users\Rafa\Desktop\FACULDADE\Onboarding Totvs\Alura\Alura - Curso 3\Heranca e  Interfaces\Usando Heranca e Implementando Interfaces\obj\Debug\net6.0\Usando Heranca e Implementando Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rafa\Desktop\FACULDADE\Onboarding Totvs\Alura\Alura - Curso 3\Heranca e  Interfaces\Usando Heranca e Implementando Interfaces\obj\Debug\net6.0\Usando Heranca e Implementando Interfaces.AssemblyInfoInputs.cache
+C:\Users\Rafa\Desktop\FACULDADE\Onboarding Totvs\Alura\Alura - Curso 3\Heranca e  Interfaces\Usando Heranca e Implementando Interfaces\obj\Debug\net6.0\Usando Heranca e Implementando Interfaces.AssemblyInfo.cs
+C:\Users\Rafa\Desktop\FACULDADE\Onboarding Totvs\Alura\Alura - Curso 3\Heranca e  Interfaces\Usando Heranca e Implementando Interfaces\obj\Debug\net6.0\Usando Heranca e Implementando Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\Rafa\Desktop\FACULDADE\Onboarding Totvs\Alura\Alura - Curso 3\Heranca e  Interfaces\Usando Heranca e Implementando Interfaces\obj\Debug\net6.0\Usando Heranca e Implementando Interfaces.dll
+C:\Users\Rafa\Desktop\FACULDADE\Onboarding Totvs\Alura\Alura - Curso 3\Heranca e  Interfaces\Usando Heranca e Implementando Interfaces\obj\Debug\net6.0\refint\Usando Heranca e Implementando Interfaces.dll
+C:\Users\Rafa\Desktop\FACULDADE\Onboarding Totvs\Alura\Alura - Curso 3\Heranca e  Interfaces\Usando Heranca e Implementando Interfaces\obj\Debug\net6.0\Usando Heranca e Implementando Interfaces.pdb
+C:\Users\Rafa\Desktop\FACULDADE\Onboarding Totvs\Alura\Alura - Curso 3\Heranca e  Interfaces\Usando Heranca e Implementando Interfaces\obj\Debug\net6.0\Usando Heranca e Implementando Interfaces.genruntimeconfig.cache
+C:\Users\Rafa\Desktop\FACULDADE\Onboarding Totvs\Alura\Alura - Curso 3\Heranca e  Interfaces\Usando Heranca e Implementando Interfaces\obj\Debug\net6.0\ref\Usando Heranca e Implementando Interfaces.dll
