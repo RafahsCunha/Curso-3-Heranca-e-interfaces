@@ -30,6 +30,3 @@ gerenciador.Registrar(jennyfer); // Exemplo de Polimorfismo
 
 Console.WriteLine("Total de Bonificação: R$ " + gerenciador.TotalDeBonificacao);
 
-
-Operacoes operacoes = new Operacoes();
-operacoes.soma(1, 2);

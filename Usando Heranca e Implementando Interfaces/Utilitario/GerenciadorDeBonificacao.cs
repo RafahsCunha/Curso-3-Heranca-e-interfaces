@@ -16,9 +16,6 @@ namespace Usando_Heranca_e_Implementando_Interfaces.Utilitario
         {
             this.TotalDeBonificacao += funcionario.getBonificacao();
         }
-        public void Registrar(Diretor diretor) // Sobrecarga do método Registrar
-        {
-            this.TotalDeBonificacao += diretor.getBonificacao();
-        }
+        
     }
 }
