@@ -12,7 +12,7 @@ namespace Usando_Heranca_e_Implementando_Interfaces.Funcionarios
         public string Cpf { get; set; }
         public double Salario { get; set; }
 
-        public double getBonificacao()
+        public virtual double getBonificacao() // Será reescrito/override na classe Diretor
         {
             return this.Salario * 0.10;
         }
