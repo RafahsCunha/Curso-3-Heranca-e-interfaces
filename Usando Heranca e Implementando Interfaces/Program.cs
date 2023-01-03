@@ -28,5 +28,6 @@ GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao();
 gerenciador.Registrar(rafael); // Exemplo de Polimorfismo
 gerenciador.Registrar(jennyfer); // Exemplo de Polimorfismo
 
-Console.WriteLine("Total de Bonificação: R$ " + gerenciador.TotalDeBonificacao);
+Console.WriteLine("\nTotal de Bonificação: R$ " + gerenciador.TotalDeBonificacao);
 
+Console.WriteLine("\nTotal de Funcionários: " + Funcionario.TotalDeFuncionarios); //Contabiliza funcionários do tipo Diretor por causa do conceito de herança
