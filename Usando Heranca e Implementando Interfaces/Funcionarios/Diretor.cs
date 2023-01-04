@@ -10,10 +10,10 @@ namespace Usando_Heranca_e_Implementando_Interfaces.Funcionarios
     {
         public override double getBonificacao()// sobrescrita/override do método getBon.. herdado da classe Funcionario
         {
-            return this.Salario + base.getBonificacao();// base permite acessar atributos e métodos da superclasse (da classe herdada)
+            return this.Salario * 0.50;// base permite acessar atributos e métodos da superclasse (da classe herdada)
         }  
 
-        public Diretor(string cpf,double salario) : base(cpf,salario) // base permite acessar implementações da superclasse
+        public Diretor(string cpf) : base(cpf,5000) // base permite acessar implementações da superclasse
         {
 
         }
