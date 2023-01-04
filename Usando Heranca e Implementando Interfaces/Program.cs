@@ -4,9 +4,8 @@ using Usando_Heranca_e_Implementando_Interfaces.Desafios.DesafioAula_01;
 using Usando_Heranca_e_Implementando_Interfaces.Funcionarios;
 using Usando_Heranca_e_Implementando_Interfaces.Utilitario;
 
-Funcionario rafael = new Funcionario();
+Funcionario rafael = new Funcionario("123456789");
 rafael.Nome = "Rafael Henrique";
-rafael.Cpf = "123456789";
 rafael.Salario = 2000;
 
 Console.WriteLine("Funcionario: " + rafael.Nome);
@@ -15,9 +14,8 @@ Console.WriteLine("Bonificacao: R$ " + rafael.getBonificacao());
 
 
 
-Diretor jennyfer = new Diretor();
+Diretor jennyfer = new Diretor("987654321");
 jennyfer.Nome = "Jennyfer Ribeiro";
-jennyfer.Cpf = "987654321";
 jennyfer.Salario = 5000;
 
 Console.WriteLine("Funcionario: " + jennyfer.Nome);

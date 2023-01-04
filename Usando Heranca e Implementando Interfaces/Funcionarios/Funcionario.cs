@@ -9,13 +9,14 @@ namespace Usando_Heranca_e_Implementando_Interfaces.Funcionarios
     public class Funcionario
     {
         public string Nome { get; set; }
-        public string Cpf { get; set; }
+        public string Cpf { get; private set; }// acesso permitido somente pelo método construtor
         public double Salario { get; set; }
 
         public static int TotalDeFuncionarios { get; private set; }// Propriedade statica da classe, permite que o construtor seja acessado sem ter que criar um objeto
-
-        public Funcionario()
+    
+        public Funcionario(string cpf)
         {
+            this.Cpf = cpf;
             TotalDeFuncionarios++;
         }
 
