@@ -13,9 +13,13 @@ namespace Usando_Heranca_e_Implementando_Interfaces.Funcionarios
             return this.Salario + base.getBonificacao();// base permite acessar atributos e métodos da superclasse (da classe herdada)
         }  
 
-        public Diretor(string cpf) : base(cpf) // base permite acessar implementações da superclasse
+        public Diretor(string cpf,double salario) : base(cpf,salario) // base permite acessar implementações da superclasse
         {
 
+        }
+        public override void aumentarSalario()
+        {
+            this.Salario *= 1.15; 
         }
     }
 }
