@@ -11,7 +11,7 @@ namespace Usando_Heranca_e_Implementando_Interfaces.Funcionarios
     {
         public Auxiliar(string cpf) : base(cpf, 2000)
         {
-      
+          
         }
         public override double getBonificacao()
         {
