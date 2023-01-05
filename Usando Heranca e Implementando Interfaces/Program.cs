@@ -37,7 +37,7 @@ using Usando_Heranca_e_Implementando_Interfaces.Utilitario;
 //Console.WriteLine("\nNovo Salario do Jennyfer. " + jennyfer.Salario);
 #endregion 
 
-calcularBonificacao();
+#region
 void calcularBonificacao()
 {
     GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao();
@@ -54,6 +54,7 @@ void calcularBonificacao()
     GerenteDeContas jennyfer = new GerenteDeContas("13279846-89");
     jennyfer.Nome = "Jennyfer";
 
+    
     gerenciador.Registrar(joao);
     gerenciador.Registrar(emanuelle);
     gerenciador.Registrar(rafael);
@@ -61,4 +62,8 @@ void calcularBonificacao()
 
     Console.WriteLine("Total de Bonificação: " + gerenciador.TotalDeBonificacao);
 
+    
 }
+calcularBonificacao();
+
+#endregion
