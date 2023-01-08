@@ -21,5 +21,12 @@ namespace Usando_Heranca_e_Implementando_Interfaces.Funcionarios
         {
             this.Salario *= 1.15; 
         }
+
+        public string Senha { get; set; }
+
+        public bool autenticar(string senha)
+        {
+            return this.Senha == senha;
+        }
     }
 }
