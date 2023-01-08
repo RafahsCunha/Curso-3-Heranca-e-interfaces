@@ -81,8 +81,18 @@ void usarSistema()
     ursula.Nome = "Ursula Silva";
     ursula.Senha = "321";
 
+    Designer marlene = new Designer("369258117-98");
+    marlene.Nome = "Marlene Dias";
+    marlene.Senha = "111";
+
+    Auxiliar silvio = new Auxiliar("13789456-63");
+    silvio.Nome = "Silvio Santos";
+    silvio.Senha = "789";
+
     sistema.logar(ingrid,"123"); //Diretor
     sistema.logar(ursula,"333"); // GerenteDeContas
+    sistema.logar(silvio, "789");
+    sistema.logar(marlene, "012");
 }
 #endregion
 usarSistema();
