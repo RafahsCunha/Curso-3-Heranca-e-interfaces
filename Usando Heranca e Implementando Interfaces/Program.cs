@@ -2,6 +2,7 @@
 
 using Usando_Heranca_e_Implementando_Interfaces.Desafios.DesafioAula_01;
 using Usando_Heranca_e_Implementando_Interfaces.Funcionarios;
+using Usando_Heranca_e_Implementando_Interfaces.SistemaInterno;
 using Usando_Heranca_e_Implementando_Interfaces.Utilitario;
 
 // #region #endregion oculta uma cadeia de códigos
@@ -38,32 +39,50 @@ using Usando_Heranca_e_Implementando_Interfaces.Utilitario;
 #endregion 
 
 #region
-void calcularBonificacao()
-{
-    GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao();
+//void calcularBonificacao()
+//{
+//    GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao();
 
-    Auxiliar joao = new Auxiliar("123456789-10");
-    joao.Nome = "Joao";
+//    Auxiliar joao = new Auxiliar("123456789-10");
+//    joao.Nome = "Joao";
 
-    Designer emanuelle = new Designer("654987321-78");
-    emanuelle.Nome = "Emanuelle";
+//    Designer emanuelle = new Designer("654987321-78");
+//    emanuelle.Nome = "Emanuelle";
 
-    Diretor rafael = new Diretor("987654321-01");
-    rafael.Nome = "Rafael";
+//    Diretor rafael = new Diretor("987654321-01");
+//    rafael.Nome = "Rafael";
 
-    GerenteDeContas jennyfer = new GerenteDeContas("13279846-89");
-    jennyfer.Nome = "Jennyfer";
-
-    
-    gerenciador.Registrar(joao);
-    gerenciador.Registrar(emanuelle);
-    gerenciador.Registrar(rafael);
-    gerenciador.Registrar(jennyfer);
-
-    Console.WriteLine("Total de Bonificação: " + gerenciador.TotalDeBonificacao);
+//    GerenteDeContas jennyfer = new GerenteDeContas("13279846-89");
+//    jennyfer.Nome = "Jennyfer";
 
     
-}
-calcularBonificacao();
+//    gerenciador.Registrar(joao);
+//    gerenciador.Registrar(emanuelle);
+//    gerenciador.Registrar(rafael);
+//    gerenciador.Registrar(jennyfer);
 
+//    Console.WriteLine("Total de Bonificação: " + gerenciador.TotalDeBonificacao);
+
+    
+//}
+//calcularBonificacao();
 #endregion
+
+#region
+void usarSistema()
+{
+    SistemaInterno sistema = new SistemaInterno();
+
+    Diretor ingrid = new Diretor("321654789-97");
+    ingrid.Nome = "Ingrid Soares";
+    ingrid.Senha = "123";
+
+    GerenteDeContas ursula = new GerenteDeContas("987132654-65");
+    ursula.Nome = "Ursula Silva";
+    ursula.Senha = "321";
+
+    sistema.logar(ingrid,"123"); //Diretor
+    sistema.logar(ursula,"333"); // GerenteDeContas
+}
+#endregion
+usarSistema();
