@@ -26,8 +26,11 @@ namespace Usando_Heranca_e_Implementando_Interfaces.Funcionarios
         }
         public abstract void aumentarSalario();// Implementação obrigatório nas classes que herdam de Funcionario
 
-
-
+        public string Senha { get; set; }
+        public bool autenticar(string senha)
+        {
+            return this.Senha == senha;
+        }
 
     }
 }
