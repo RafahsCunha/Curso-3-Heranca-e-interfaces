@@ -3,23 +3,30 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Usando_Heranca_e_Implementando_Interfaces.SistemaInterno;
 
 namespace Usando_Heranca_e_Implementando_Interfaces.Funcionarios
 {
-    public class Diretor : Funcionario
+    public class Diretor : Autenticavel
     {
-        public override double getBonificacao()// sobrescrita/override do método getBon.. herdado da classe Funcionario
+        public override double getBonificacao()
         {
-            return this.Salario * 0.50;// base permite acessar atributos e métodos da superclasse (da classe herdada)
-        }  
-
-        public Diretor(string cpf) : base(cpf,5000) // base permite acessar implementações da superclasse
-        {
-
+            return this.Salario * 0.5;
         }
+
+        public Diretor(string cpf) : base(cpf, 5000)
+        {
+            //Console.WriteLine("Criando um diretor.");
+        }
+
         public override void aumentarSalario()
         {
-            this.Salario *= 1.15; 
+            this.Salario *= 1.15;
+        }
+
+        public override bool autenticar(string senha)
+        {
+            return this.Senha == senha;
         }
     }
 }

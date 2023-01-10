@@ -9,7 +9,7 @@ namespace Usando_Heranca_e_Implementando_Interfaces.SistemaInterno
 {
     public class SistemaInterno
     {
-        public bool logar(Funcionario funcionario, string senha)
+        public bool logar(Autenticavel funcionario, string senha)
         {
             bool usuarioAutenticado = funcionario.autenticar(senha);
             if (usuarioAutenticado)
