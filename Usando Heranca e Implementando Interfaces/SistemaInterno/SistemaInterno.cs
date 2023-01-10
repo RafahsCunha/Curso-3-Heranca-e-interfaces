@@ -9,9 +9,9 @@ namespace Usando_Heranca_e_Implementando_Interfaces.SistemaInterno
 {
     public class SistemaInterno
     {
-        public bool logar(Autenticavel funcionario, string senha)
+        public bool logar(Autenticavel funcionario, string senha, string login)
         {
-            bool usuarioAutenticado = funcionario.autenticar(senha);
+            bool usuarioAutenticado = funcionario.autenticar(senha,login);
             if (usuarioAutenticado)
             {
                 Console.WriteLine("Usuario Logado. Bem vindo ao sistema!");
