@@ -25,9 +25,9 @@ namespace Usando_Heranca_e_Implementando_Interfaces.Funcionarios
             this.Salario *= 1.05;
         }
 
-        public override bool autenticar(string senha)
+        public override bool autenticar(string senha,string login)
         {
-            return this.Senha == senha;
+            return this.Login == login && this.Senha == senha;
         }
     }
 } 

@@ -75,14 +75,17 @@ void usarSistema()
 
     Diretor ingrid = new Diretor("321654789-97");
     ingrid.Nome = "Ingrid Soares";
+    ingrid.Login = "qwer";
     ingrid.Senha = "123";
 
     GerenteDeContas ursula = new GerenteDeContas("987132654-65");
     ursula.Nome = "Ursula Silva";
+    ursula.Login = "zxcv";
     ursula.Senha = "321";
+    
 
-    sistema.logar(ingrid,"123"); //Diretor
-    sistema.logar(ursula,"333"); // GerenteDeContas
+    sistema.logar(ingrid,"123","qwer"); //Diretor
+    sistema.logar(ursula,"333","zxcv"); // GerenteDeContas
     
 }
 #endregion
