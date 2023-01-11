@@ -2,6 +2,7 @@
 
 using Usando_Heranca_e_Implementando_Interfaces.Desafios.DesafioAula_01;
 using Usando_Heranca_e_Implementando_Interfaces.Funcionarios;
+using Usando_Heranca_e_Implementando_Interfaces.Parceria;
 using Usando_Heranca_e_Implementando_Interfaces.SistemaInterno;
 using Usando_Heranca_e_Implementando_Interfaces.Utilitario;
 
@@ -86,7 +87,12 @@ void usarSistema()
 
     sistema.logar(ingrid,"123","qwer"); //Diretor
     sistema.logar(ursula,"333","zxcv"); // GerenteDeContas
-    
+
+    ParceiroComercial cocacola = new ParceiroComercial();
+    cocacola.Senha = "369";
+    cocacola.Login = "cocacola";
+
+    sistema.logar(cocacola,"cocacola", "369");    
 }
 #endregion
 usarSistema();
