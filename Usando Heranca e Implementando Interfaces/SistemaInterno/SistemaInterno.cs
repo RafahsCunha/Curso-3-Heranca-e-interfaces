@@ -10,40 +10,20 @@ namespace Usando_Heranca_e_Implementando_Interfaces.SistemaInterno
 {
     public class SistemaInterno
     {
-        public bool logar(Autenticavel funcionario, string senha, string login)
+        public bool logar(IAutenticavel funcionario, string login, string senha)
         {
-            bool usuarioAutenticado = funcionario.autenticar(senha,login);
+            bool usuarioAutenticado = funcionario.autenticar(login,senha);
             if (usuarioAutenticado)
             {
                 Console.WriteLine("Usuario Logado. Bem vindo ao sistema!");
                 return true;
             }
-            else
+            else 
             {
-                
                 Console.WriteLine("Senha incorreta!");
                 return false;
+
             }
-
-
-        }
-
-        public bool logar(ParceiroComercial parceiro, string senha, string login)
-        {
-            bool usuarioAutenticado = parceiro.autenticar(senha, login);
-            if (usuarioAutenticado)
-            {
-                Console.WriteLine("Parceiro logado. Bem vindo ao sistema!");
-                return true;
-            }
-            else
-            {
-
-                Console.WriteLine("Senha incorreta!");
-                return false;
-            }
-
-
         }
     }
 }

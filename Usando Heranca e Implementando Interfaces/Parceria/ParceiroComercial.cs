@@ -7,7 +7,7 @@ using Usando_Heranca_e_Implementando_Interfaces.SistemaInterno;
 
 namespace Usando_Heranca_e_Implementando_Interfaces.Parceria
 {
-    public class ParceiroComercial 
+    public class ParceiroComercial : IAutenticavel
     {
         
 

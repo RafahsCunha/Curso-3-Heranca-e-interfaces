@@ -7,16 +7,11 @@ using Usando_Heranca_e_Implementando_Interfaces.Funcionarios;
 
 namespace Usando_Heranca_e_Implementando_Interfaces.SistemaInterno
 {
-    public abstract class Autenticavel : Funcionario
+    public interface IAutenticavel
     {
         public string Senha { get; set; }
         public string Login { get; set; }
+        public bool autenticar(string login,string senha);
 
-        public abstract bool autenticar(string senha,string login);
-
-        public Autenticavel(string cpf, double salario) : base(cpf, salario)
-        {
-
-        }
     }
 }

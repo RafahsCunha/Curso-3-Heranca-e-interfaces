@@ -86,12 +86,12 @@ void usarSistema()
     
 
     sistema.logar(ingrid,"123","qwer"); //Diretor
-    sistema.logar(ursula,"333","zxcv"); // GerenteDeContas
+    sistema.logar(ursula,"zxcv","444"); // GerenteDeContas
 
     ParceiroComercial cocacola = new ParceiroComercial();
-    cocacola.Senha = "369";
     cocacola.Login = "cocacola";
-
+    cocacola.Senha = "369";
+    
     sistema.logar(cocacola,"cocacola", "369");    
 }
 #endregion

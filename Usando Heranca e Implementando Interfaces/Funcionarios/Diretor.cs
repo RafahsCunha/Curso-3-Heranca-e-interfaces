@@ -7,7 +7,7 @@ using Usando_Heranca_e_Implementando_Interfaces.SistemaInterno;
 
 namespace Usando_Heranca_e_Implementando_Interfaces.Funcionarios
 {
-    public class Diretor : Autenticavel
+    public class Diretor : FuncionarioAutenticavel
     {
         public override double getBonificacao()
         {
@@ -22,11 +22,6 @@ namespace Usando_Heranca_e_Implementando_Interfaces.Funcionarios
         public override void aumentarSalario()
         {
             this.Salario *= 1.15;
-        }
-
-        public override bool autenticar(string senha,string login)
-        {
-            return this.Login == login && this.Senha == senha;
         }
     }
 }
